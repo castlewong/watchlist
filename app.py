@@ -1,5 +1,5 @@
+# -*- coding: utf-8 -*-
 from flask import Flask, render_template
-
 app = Flask(__name__)
 
 name = 'Grey Li'
@@ -15,6 +15,7 @@ movies = [
     {'title': 'WALL-E', 'year': '2008'},
     {'title': 'The Pork of Music', 'year': '2012'},
 ]
+
 
 @app.route('/')
 def index():
